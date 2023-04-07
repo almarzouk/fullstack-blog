@@ -14,7 +14,7 @@ const SECRET_TOKEN = "itsmysecrenttokeddon983u1!@#!@#%^%$^%$34nij2123";
 app.use(
   cors({
     credentials: true,
-    origin: "http://localhost:3000",
+    origin: "https://aesthetic-pothos-b4dda4.netlify.app",
   })
 );
 app.use(express.json());
